@@ -41,8 +41,8 @@ start_time = time.time()
 # =============================================================================
 
 print("📂 Loading data...")
-train = pd.read_csv('/content/train.csv')
-test = pd.read_csv('/content/test.csv')
+train = pd.read_csv('dataset/train.csv')
+test = pd.read_csv('dataset/test.csv')
 
 print(f"✅ Train: {train.shape}, Test: {test.shape}")
 
