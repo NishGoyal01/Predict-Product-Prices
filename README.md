@@ -35,6 +35,9 @@ amazon_ml_challenge_2025/
 
 ## ⚡ Quick Start — Run Everything in One Command
 
+-Dataset Requirements:
+Before running the pipeline, make sure `train.csv` and `test.csv` are placed inside the `dataset/` directory. The raw datasets are not included in the repository because of their size.
+
 From the VS Code terminal or any terminal in your project folder:
 
 ```bash
